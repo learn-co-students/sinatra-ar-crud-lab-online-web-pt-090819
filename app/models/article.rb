@@ -1,5 +1,5 @@
 #Placeholder for a model
 
-class Post < ActiveRecord::Base
+class Article < ActiveRecord::Base
 
 end
