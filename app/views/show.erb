@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1><%= @article.name %></h1>
+    <p><%= @article.content %></p>
+    <br />
+    <form method="article" action="/models/<%= @model.id %>">
+  <input id="hidden" type="hidden" name="_method" value="DELETE">
+  <input type="submit" value="delete">
+</form>
+  </body>
+</html>
